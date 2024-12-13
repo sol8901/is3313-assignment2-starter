@@ -19,7 +19,7 @@ class Calculator:
             raise ValueError("Cannot divide by zero.")
         return a/b
 
-    def power(self, base, exponent):
+    def power(self, a, b):
         """Raises the base to the power of the exponent and returns the result."""
         return a**b
 
